@@ -1,5 +1,12 @@
-/* Center header elements*/
+/* Set body colors and fonts */
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-color: lightskyblue;
+}
+
+/* Set header colors and fonts */
 header {
+    font-family: "Verdana";
     background-color: #17a2b8;
     color: white;
     padding: 20px; 
@@ -7,6 +14,7 @@ header {
 }
 
 h1 {
+    font-family: "Tahoma";
     font-size: 24px;
     margin: 0;
 }
@@ -20,12 +28,6 @@ h2 {
 
 footer {
     text-align: center;
-}
-
-/* Set body colors and fonts */
-body {
-    font-family: "Verdana", "Tahoma", "Gill Sans Extrabold", sans-serif;
-    background-color: lightskyblue;
 }
 
 /* Reset some default styles to make the table look cleaner */
