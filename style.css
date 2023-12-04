@@ -1,8 +1,31 @@
+/* Center header elements*/
+header {
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 /* Set body colors and fonts */
 body {
-    font-family: "Gill Sans Extrabold", sans-serif;
+    font-family: "Verdana", "Tahoma", "Gill Sans Extrabold", sans-serif;
     background-color: lightskyblue;
-    text-align: center;
 }
 
 /* Reset some default styles to make the table look cleaner */
@@ -11,6 +34,7 @@ table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 th,
@@ -55,76 +79,3 @@ td:first-child {
     background-color: burlywood;
   }
 
-
-
-/*
-
-
-body {
-    font-family: "Gill Sans Extrabold", sans-serif;
-    background-color: lightskyblue;
-    text-align: center;
-
-
-
-    font-family: "Verdana", "Tahoma", sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 24px;
-    margin: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-code {
-    background-color: #f8f9fa;
-    padding: 2px 4px;
-    border: 1px solid #ccc;
-}
-
-.color-palette {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.color-box {
-    width: 100px;
-    height: 200px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    align-items: center;
-}
-
-
-.font-sample {
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-*/
